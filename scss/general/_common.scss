@@ -4,7 +4,9 @@ html {
   scroll-behavior: smooth;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -17,6 +19,7 @@ body {
   font-family: $project-font, "Arial", sans-serif;
   font-size: $font-size;
   line-height: $line-height;
+  background-color: #1f1a25;
 }
 
 img {
